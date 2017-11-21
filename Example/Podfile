@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LinFrameView_Example' do
+  pod 'LinFrameView', :path => '../'
+
+  target 'LinFrameView_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
