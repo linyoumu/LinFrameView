@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LinFrameView (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LinFrameView (from `../`)
+
+EXTERNAL SOURCES:
+  LinFrameView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LinFrameView: 36fcf282da90c7646b73ce58ca68f9a67cbd0c4f
+
+PODFILE CHECKSUM: 0220d115549004fe89a9d6db313ea7c2443db667
+
+COCOAPODS: 1.3.1

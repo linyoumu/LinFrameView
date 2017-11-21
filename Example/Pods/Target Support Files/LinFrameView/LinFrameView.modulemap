@@ -1,0 +1,6 @@
+framework module LinFrameView {
+  umbrella header "LinFrameView-umbrella.h"
+
+  export *
+  module * { export * }
+}
